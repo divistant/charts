@@ -7,7 +7,13 @@ We create public charts for a few applications, provided by [Divistant](https://
 ## TL;DR
 
 ```bash
-$ helm repo add bitnami https://charts.divistant.com/divistant
+$ helm repo add bitnami https://charts.divistant.com
 $ helm search repo divistant
 $ helm install my-release divistant/<chart>
 ```
+
+## Type of Charts Manifest
+
+1. Application Manifest
+2. Argo Manifest
+3. Tekton Manifest
