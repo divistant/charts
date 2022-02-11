@@ -32,9 +32,10 @@ entries:
         url: https://keybase.io/hashicorp/pgp_keys.asc
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-12T00:10:22.426688+07:00"
+    created: "2022-02-12T00:37:06.455053+07:00"
     description: A Helm chart for Kubernetes
-    digest: 3e5ca7006e9d7bc97519336a2bbe128409f5e413143bc5f7b916df0944284455
+    digest: 730d9ed81457dd194eb4539b0b820b60a4d7907094bf2f4b4299265d704e095c
+    icon: https://i0.wp.com/divistant.com/wp-content/uploads/2020/10/color_favicon.png
     name: common
     type: application
     urls:
@@ -72,12 +73,13 @@ entries:
         url: https://keybase.io/hashicorp/pgp_keys.asc
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-02-12T00:10:22.427597+07:00"
+    created: "2022-02-12T00:37:06.455785+07:00"
     description: A Helm chart for Kubernetes
-    digest: ea02eadd1ab971f9c82e04e7e30ebae4ff122ea1ce22c3d63e2a3b5fa388161b
+    digest: ab12adc8cb2be46c48613b5557ee5cbf287f327a98dacb8917ca7c5d178978d7
+    icon: https://i0.wp.com/divistant.com/wp-content/uploads/2020/10/color_favicon.png
     name: jobs
     type: application
     urls:
     - jobs-0.1.0.tgz
     version: 0.1.0
-generated: "2022-02-12T00:10:22.424509+07:00"
+generated: "2022-02-12T00:37:06.453858+07:00"
