@@ -1,6 +1,7 @@
 apiVersion: v2
 name: common
 description: A Helm chart for Kubernetes
+icon: https://i0.wp.com/divistant.com/wp-content/uploads/2020/10/color_favicon.png
 
 # A chart can be either an 'application' or a 'library' chart.
 #
