@@ -22,3 +22,67 @@ version: 0.1.0
 # follow Semantic Versioning. They should reflect the version the application is using.
 # It is recommended to use it with quotes.
 appVersion: "1.16.0"
+
+# Artifact Hub
+annotations:
+  artifacthub.io/changes: |
+    - Added cool feature
+    - Fixed minor bug    
+  artifacthub.io/changes: |
+    - kind: added
+      description: Cool feature
+      links:
+        - name: Github Issue
+          url: https://github.com/issue-url
+        - name: Github PR
+          url: https://github.com/pr-url
+    - kind: fixed
+      description: Minor bug
+      links:
+        - name: Github Issue
+          url: https://github.com/issue-url    
+  artifacthub.io/containsSecurityUpdates: "true"
+  artifacthub.io/images: |
+    - name: img1
+      image: repo/img1:1.0.0
+    - name: img2
+      image: repo/img2:2.0.0
+      whitelisted: true    
+  artifacthub.io/crds: |
+    - kind: MyKind
+      version: v1
+      name: mykind
+      displayName: My Kind
+      description: Some nice description    
+  artifacthub.io/crdsExamples: |
+    - apiVersion: v1
+      kind: MyKind
+      metadata:
+        name: mykind
+      spec:
+        replicas: 1    
+  artifacthub.io/license: Apache-2.0
+  artifacthub.io/links: |
+    - name: link1
+      url: https://link1.url
+    - name: link2
+      url: https://link2.url    
+  artifacthub.io/maintainers: |
+    - name: user1
+      email: user1@email.com
+    - name: user2
+      email: user2@email.com    
+  artifacthub.io/operator: "true"
+  artifacthub.io/operatorCapabilities: Basic Install
+  artifacthub.io/prerelease: "false"
+  artifacthub.io/recommendations: |
+    - url: https://artifacthub.io/packages/helm/artifact-hub/artifact-hub
+    - url: https://artifacthub.io/packages/helm/prometheus-community/kube-prometheus-stack    
+  artifacthub.io/screenshots: |
+    - title: Sample screenshot 1
+      url: https://example.com/screenshot1.jpg
+    - title: Sample screenshot 2
+      url: https://example.com/screenshot2.jpg    
+  artifacthub.io/signKey: |
+    fingerprint: C874011F0AB405110D02105534365D9472D7468F
+    url: https://keybase.io/hashicorp/pgp_keys.asc
