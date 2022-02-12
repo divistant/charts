@@ -19,4 +19,4 @@ $ helm install my-release divistant/<chart>
 3. Tekton Manifest
 
 ## Contribute
-Visit [Divistant Chart Repository] (https://github.com/divistant/charts)
+Visit [Divistant Chart Repository](https://github.com/divistant/charts)
