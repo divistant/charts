@@ -17,3 +17,6 @@ $ helm install my-release divistant/<chart>
 1. Application Manifest
 2. Argo Manifest
 3. Tekton Manifest
+
+## Contribute
+Visit [Divistant Chart Repository] (https://github.com/divistant/charts)
