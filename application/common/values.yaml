@@ -13,6 +13,7 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
+configmap: ""
 
 serviceAccount:
   # Specifies whether a service account should be created
@@ -39,6 +40,7 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
+  dstPort: 80
 
 ingress:
   enabled: false
