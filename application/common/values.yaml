@@ -13,7 +13,12 @@ image:
 imagePullSecrets: []
 nameOverride: ""
 fullnameOverride: ""
-configmap: ""
+
+envFrom:
+  - configMapRef:
+      name: sample
+  - secretRef:
+      name: sample
 
 serviceAccount:
   # Specifies whether a service account should be created
