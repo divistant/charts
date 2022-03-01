@@ -31,16 +31,16 @@ entries:
         fingerprint: C874011F0AB405110D02105534365D9472D7468F
         url: https://keybase.io/hashicorp/pgp_keys.asc
     apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-03-01T20:44:56.123687+07:00"
+    appVersion: 1.16.1
+    created: "2022-03-01T20:55:19.240639+07:00"
     description: A Helm chart for Kubernetes
-    digest: 6e0f622b1e6dfd2d83b2470abf15fc0425d8eae0774f1aaa9a2b79a1a0022759
+    digest: 9ce3dd35b99cbf16917acc1d4deb6a3e860d1bd2a609e13a4bf510b0c1c4a188
     icon: https://i0.wp.com/divistant.com/wp-content/uploads/2020/10/color_favicon.png
     name: common
     type: application
     urls:
-    - common-0.1.0.tgz
-    version: 0.1.0
+    - common-0.1.1.tgz
+    version: 0.1.1
   jobs:
   - annotations:
       artifacthub.io/changes: "- kind: added\n  description: Cool feature\n  links:\n
@@ -73,7 +73,7 @@ entries:
         url: https://keybase.io/hashicorp/pgp_keys.asc
     apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-01T20:44:56.124814+07:00"
+    created: "2022-03-01T20:55:19.241716+07:00"
     description: A Helm chart for Kubernetes
     digest: ed2869749da465bc8dbbe9def09895b3e605aca190b4cc55da13a0bc0cd5a66b
     icon: https://i0.wp.com/divistant.com/wp-content/uploads/2020/10/color_favicon.png
@@ -82,4 +82,4 @@ entries:
     urls:
     - jobs-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-01T20:44:56.119438+07:00"
+generated: "2022-03-01T20:55:19.237957+07:00"
