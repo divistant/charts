@@ -16,7 +16,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.1
+version: 0.1.2
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
@@ -45,9 +45,9 @@ annotations:
   artifacthub.io/containsSecurityUpdates: "true"
   artifacthub.io/images: |
     - name: img1
-      image: repo/img1:1.0.0
+      image: nginx:latest
     - name: img2
-      image: repo/img2:2.0.0
+      image: nginx:latest
       whitelisted: true    
   artifacthub.io/crds: |
     - kind: MyKind

@@ -41,14 +41,6 @@ spec:
             - name: http
               containerPort: {{ .Values.service.dstPort}}
               protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /
-              port: {{ .Values.service.dstPort}}
-          readinessProbe:
-            httpGet:
-              path: /
-              port: {{ .Values.service.dstPort}}
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
